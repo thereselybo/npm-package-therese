@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-therese",
+  "version": "0.0.1",
+  "description": "This function will return my name as a string",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git.github.com"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "javascript"
+  ],
+  "author": "Therese",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
